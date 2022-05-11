@@ -1,0 +1,5 @@
+In this folder we store Flask front end files 
+HTML files
+
+If you are running flask application then all template files should be under this folder 
+templates << Its case sensitive 
