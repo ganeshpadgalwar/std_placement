@@ -9,7 +9,7 @@
 <body>
     Data Science Student Placement Project
 
-<form>
+<form method="POST" action="/predict">
 <label>CGPA</label>
 <input type="text" name = "cgpa" >
 
@@ -20,6 +20,9 @@
 <input type="text" name = "profile_score" >
 
 <input type="submit" name = "submit">
+
+{{prediction}}
+ 
 </form>
 
 </body>
