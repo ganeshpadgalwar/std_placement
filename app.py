@@ -3,7 +3,7 @@
 from flask import Flask , render_template, request
 
 import pickle
-model = pickle.load(open(r"E:\Project\student_placement\std_placement\artifacts\std_model.pkl","rb"))
+model = pickle.load(open("std_model.pkl","rb"))
 
 app = Flask(__name__)
 
